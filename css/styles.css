@@ -1,0 +1,93 @@
+.bodybase {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #c2c9df;
+}
+
+.bg-osc {
+    background-color: rgb(59 62 65 /69%)
+}
+
+.bg-clr {
+    background-color: rgb(187 187 187)
+}
+
+/* .lithium {
+    background: #6D6027;  
+    background: -webkit-linear-gradient(to top, #D3CBB8, #6D6027); 
+    background: linear-gradient(to top, #D3CBB8, #6D6027); 
+} */
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    background-color: #383885;
+    color: #c2c9df !important;
+}
+
+.rowcontact {
+    justify-content: center;
+}
+
+.fontbase3 { color: #33353e !important;}
+
+main {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.sectionrow1 {
+    max-height: 29rem;
+    content-visibility: auto;
+}
+
+.caroimg {
+    height: auto;
+    width: 17rem; 
+    object-fit: cover; 
+    max-width: 70%; 
+    display: block;
+    
+    max-inline-size: -webkit-fill-available;
+}
+
+.alturaCard1 {
+    height: 65.1dvh !important;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.moving-text-container {
+    overflow: hidden;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+.moving-text {
+    display: inline-block;
+    animation: moveText 15s linear infinite; /* Ajusta la duración y el tipo de animación según sea necesario */
+}
+
+/* Movil */
+@media (max-width: 375px) {
+    .mainlog {
+        padding-top: 30dvh;
+        padding-right: 0;
+        place-content: stretch;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+}

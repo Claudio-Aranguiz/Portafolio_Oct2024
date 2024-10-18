@@ -1,0 +1,19 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: system-ui;
+}
+
+.bodybg {
+    background-image: url(../img/un\ escritorio\ con\ un\ set-up\ de\ desarrollador.png);
+    background-size: cover;
+    backdrop-filter: blur(7px);
+}
+
+.fontbase { color: #c2c9df !important;}    
+.fontbase2 { color: #ede5f6 !important;}
+
+
+.header {
+    background-color: #f1f1f1;
+}
