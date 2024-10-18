@@ -70,7 +70,7 @@ Portafolio_v1/
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd Portafolio_v1
+   cd Portafolio_Oct2024
    ```
 
 ## Uso
